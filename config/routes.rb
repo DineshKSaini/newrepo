@@ -1,4 +1,6 @@
 Blog::Application.routes.draw do
+  get "line_items/items"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
